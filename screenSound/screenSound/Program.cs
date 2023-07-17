@@ -1,9 +1,11 @@
 ﻿
 string msgBoasVindas = "\t\tOlá! Boas vindas ao Screen Sound!";
-List<string> listaDeBandas = new List<string> 
-{ 
-    "Legião Urbana", "Guns n' Roses", "U2", "Skank"
-};
+
+Dictionary<string, List<int>> listaDeBandas = new Dictionary<string, List<int>>();
+listaDeBandas.Add("Legião Urbana", new List<int> { 10, 9, 8 });
+listaDeBandas.Add("Guns n' Roses", new List<int> { 9, 9 });
+listaDeBandas.Add("Skank", new List<int> { 10, 9, 7 });
+
 
 void ExibirMsgBoasVindas()
 {
@@ -98,7 +100,7 @@ void RegistrarBanda()
     ExibirTituloDaOpcao("REGISTRO DE BANDA");
     Console.Write("\nDigite o nome da banda: ");
     string nomeDaBanda = Console.ReadLine()!;
-    listaDeBandas.Add(nomeDaBanda);
+    listaDeBandas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"\nA banda {nomeDaBanda} foi registrada com sucesso!");    
     VoltarParaMenuPrincipal();    
 }
@@ -108,14 +110,9 @@ void MostrarBandasRegistradas()
     ExibirTituloDaOpcao("BANDAS REGISTRADAS");    
     Console.WriteLine($"\nQuantidade de bandas cadastradas: {listaDeBandas.Count}\n");
 
-    //for (int i = 0; i < listaDeBandas.Count; i++)
-    //{
-    //    Console.WriteLine($"\tBanda {i + 1}: {listaDeBandas[i]}");
-    //}
-
-    foreach (string banda in listaDeBandas)
-    {
-        Console.WriteLine($"\tBanda {listaDeBandas.IndexOf(banda)+1}: {banda}");
+    foreach (string banda in listaDeBandas.Keys)
+    {        
+        Console.WriteLine($"\tBanda: {banda}");        
     }
     
     VoltarParaMenuPrincipal();
