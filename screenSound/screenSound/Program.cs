@@ -103,9 +103,14 @@ void MostrarBandasRegistradas()
     Console.WriteLine("===================================================");
     Console.WriteLine($"\nQuantidade de bandas cadastradas: {listaDeBandas.Count}\n");
 
-    for (int i = 0; i < listaDeBandas.Count; i++)
+    //for (int i = 0; i < listaDeBandas.Count; i++)
+    //{
+    //    Console.WriteLine($"\tBanda {i + 1}: {listaDeBandas[i]}");
+    //}
+
+    foreach (string banda in listaDeBandas)
     {
-        Console.WriteLine($"\tBanda {i + 1}: {listaDeBandas[i]}");
+        Console.WriteLine($"\tBanda {listaDeBandas.IndexOf(banda)+1}: {banda}");
     }
     
     VoltarParaMenuPrincipal();
