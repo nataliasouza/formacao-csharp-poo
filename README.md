@@ -1,9 +1,9 @@
 # Formação C# - Aprendendo a programar em C# com Orientação a Objetos - Alura
 <img src="https://img.shields.io/static/v1?label=Formação CSharp-POO&message=ALURA&color=115EBC&style=for-the-badge"/>
 
-:spiral_calendar: Atualizado em 16 de julho de 2023.
+:spiral_calendar: Atualizado em 17 de julho de 2023.
 
-:construction: O projeto está em desenvolvimento :construction:<br>
+O projeto está concluído <br>
 
 ##### DESCRIÇÃO:
 >Nesta formação você vai aprender o necessário para iniciar o desenvolvimento de aplicações usando C# e terá acesso a tudo o que precisa para dominar desde os fundamentos da linguagem C# até as melhores práticas de codificação e modelagem, utilizando o poderoso paradigma da programação orientada a objetos.
@@ -22,10 +22,15 @@ https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
 * Explore o ecossistema do C#, incluindo a documentação e recursos úteis, como Stackoverflow e Office 2019.
 * Crie funções para mostrar o menu principal e registrar bandas em listas e dicionários.
 * Aprenda a avaliar bandas e calcular médias com base nos dados registrados.
-<details>
-  <summary> <b> Detalhamento das atividades </b> <i>(clique na setinha!)</i> </summary><br>
+<br>
 
-1. Cinco dúvidas de quem quer iniciar na carreira de programação - 8 Horas
+### Criando sua primeira aplicação - 8 Horas
 ```bash
 https://www.alura.com.br/curso-online-csharp-criando-primeira-aplicacao
 ```
+<br>
+
+----
+
+### CERTIFICADO
+![Natalia Souza Oliveira - Curso C# parte 1_ primeiros passos - Alura_page-0001](https://github.com/nataliasouza/formacao-csharp-poo/assets/13735095/d6292b5c-a151-4dcb-9fa6-724976738796)
