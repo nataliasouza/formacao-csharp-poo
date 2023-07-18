@@ -1,4 +1,5 @@
-# Formação C# - Aprendendo a programar em C# com Orientação a Objetos - Alura
+# Aprendendo a programar em C# com Orientação a Objetos - Alura Módulo 01/04
+
 <img src="https://img.shields.io/static/v1?label=Formação CSharp-POO&message=ALURA&color=115EBC&style=for-the-badge"/>
 
 :spiral_calendar: Atualizado em 17 de julho de 2023.
@@ -6,7 +7,7 @@
 O projeto está concluído <br>
 
 ##### DESCRIÇÃO:
->Nesta formação você vai aprender o necessário para iniciar o desenvolvimento de aplicações usando C# e terá acesso a tudo o que precisa para dominar desde os fundamentos da linguagem C# até as melhores práticas de codificação e modelagem, utilizando o poderoso paradigma da programação orientada a objetos.
+> Formação C# - Nesta formação você vai aprender o necessário para iniciar o desenvolvimento de aplicações usando C# e terá acesso a tudo o que precisa para dominar desde os fundamentos da linguagem C# até as melhores práticas de codificação e modelagem, utilizando o poderoso paradigma da programação orientada a objetos.
 
 ```bash
 https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
