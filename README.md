@@ -4,7 +4,7 @@
 
 :spiral_calendar: Atualizado em 17 de julho de 2023.
 
-O projeto está concluído <br>
+:warning: Módulo 1 está concluído:warning: <br>
 
 ##### DESCRIÇÃO:
 > Formação C# - Nesta formação você vai aprender o necessário para iniciar o desenvolvimento de aplicações usando C# e terá acesso a tudo o que precisa para dominar desde os fundamentos da linguagem C# até as melhores práticas de codificação e modelagem, utilizando o poderoso paradigma da programação orientada a objetos.
@@ -14,7 +14,7 @@ https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
 ```
 <br>
 
-## Módulo 1 -  Primeiro programa em C#
+## Primeiro programa em C#
 ##### DESCRIÇÃO:
 >Neste passo, vamos explorar o ecossistema e a sintaxe da linguagem C#, criar nosso primeiro programa e também conhecer alguns recursos que vão nos ajudar no desenvolvimento do projeto, como por exemplo funções, listas, dicionários e leitura/escrita no console.
 
@@ -25,11 +25,23 @@ https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
 * Aprenda a avaliar bandas e calcular médias com base nos dados registrados.
 <br>
 
-### Criando sua primeira aplicação - 8 Horas
+## Módulo 1
+### Criando sua primeira aplicação - 8 Horas [concluído]
 ```bash
 https://www.alura.com.br/curso-online-csharp-criando-primeira-aplicacao
 ```
 <br>
+
+## Módulo 2 
+### Aplicando a Orientação a Objetos - 8 Horas [em andamento]
+```bash
+https://www.alura.com.br/curso-online-csharp-aplicando-orientacao-objetos
+```
+*Repositório Módulo 2 - Branch master*
+
+```bash
+https://github.com/nataliasouza/formacao-csharp-poo-parte2
+```
 
 ----
 
