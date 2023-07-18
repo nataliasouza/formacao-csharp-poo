@@ -64,7 +64,8 @@ void ExibirOpcoesMenu()
         case 0:
 
             Console.Clear();
-            Console.Write("\nAguardamos o seu retorno! :)\n");            
+            Console.Write("\nAguardamos o seu retorno! :)\n");
+            Environment.Exit(0);
             break;
 
         case 1:
@@ -79,14 +80,17 @@ void ExibirOpcoesMenu()
             break;
 
         case 3:
-            Console.WriteLine($"Você escolheu a opção {opcaoEscolhidaNumerica}");
+            Console.Clear();
+            AvaliarBanda();
             break;
 
         case 4:
-            Console.WriteLine($"Você escolheu a opção {opcaoEscolhidaNumerica}");
+            Console.Clear();
+            ExibirAvaliacaoDaBanda();
             break;
 
         default:
+            Console.Clear();
             Console.WriteLine("Opção inválida");
             break;
     }
@@ -100,8 +104,7 @@ void RegistrarBanda()
     ExibirTituloDaOpcao("REGISTRO DE BANDA");
     Console.Write("\nDigite o nome da banda: ");
     string nomeDaBanda = Console.ReadLine()!;
-    listaDeBandas.Add(nomeDaBanda, new List<int>());
-    Console.WriteLine($"\nA banda {nomeDaBanda} foi registrada com sucesso!");    
+    ValidarRegistroDaBanda(nomeDaBanda);        
     VoltarParaMenuPrincipal();    
 }
 
@@ -112,8 +115,63 @@ void MostrarBandasRegistradas()
 
     foreach (string banda in listaDeBandas.Keys)
     {        
-        Console.WriteLine($"\tBanda: {banda}");        
+        Console.WriteLine($"\tBanda: {banda}");       
     }
     
     VoltarParaMenuPrincipal();
+}
+
+void AvaliarBanda()
+{
+    ExibirTituloDaOpcao("AVALIAR BANDA");
+    Console.Write("\nDigite o nome da banda deseja avaliar: ");
+    string nomeDaBanda = Console.ReadLine()!;
+
+    if (listaDeBandas.ContainsKey(nomeDaBanda))
+    {
+        Console.Write($"\nQual a nota que a banda {nomeDaBanda} merece: ");
+        int nota = int.Parse(Console.ReadLine()!);
+        listaDeBandas[nomeDaBanda].Add(nota);
+        Console.WriteLine($"\n\nA nota {nota} foi registrada com sucesso, para a Banda {nomeDaBanda}!");
+        VoltarParaMenuPrincipal();
+
+    }else    
+        Console.WriteLine($"\n\nA Banda {nomeDaBanda} não foi encontrada!");
+        VoltarParaMenuPrincipal();    
+}
+
+void ExibirAvaliacaoDaBanda()
+{    
+    Console.Write("Digite o nome da banda para saber a média: ");
+    string nomeDaBanda = (Console.ReadLine()!);
+
+    if (listaDeBandas.ContainsKey(nomeDaBanda))
+    {
+        //List<int> notasDaBanda = listaDeBandas[nomeDaBanda];
+        //Console.WriteLine($"\n\nA média de notas da Banda {nomeDaBanda} foi: {notasDaBanda.Average():F2}");
+        double notasDaBanda = listaDeBandas[nomeDaBanda].Average();
+        Console.WriteLine($"\n\nA média de notas da Banda {nomeDaBanda} foi: {notasDaBanda:F2}");
+        VoltarParaMenuPrincipal();
+
+    }else
+        Console.WriteLine($"\nO nome da Banda {nomeDaBanda} não está registrado!");
+        Console.Write("\nAperte uma tecla para prossegui com o registro!");
+        Console.ReadKey();        
+        Console.Clear();
+        RegistrarBanda();    
+}
+
+void ValidarRegistroDaBanda(string nomeDaBanda)
+{
+    while (listaDeBandas.ContainsKey(nomeDaBanda) == true)
+    {
+        Console.WriteLine($"O nome da Banda {nomeDaBanda} já está registrado!");
+        Console.Write("\nDigite outro nome de banda: ");
+        string novoNomeDaBanda = Console.ReadLine()!;
+        nomeDaBanda = novoNomeDaBanda;
+        Console.Clear();      
+    }
+
+    listaDeBandas.Add(nomeDaBanda, new List<int>());
+    Console.WriteLine($"\n\nA banda {nomeDaBanda} foi registrada com sucesso!");
 }
