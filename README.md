@@ -1,4 +1,4 @@
-# Aprendendo a programar em C# com Orientação a Objetos - Alura Módulo 01/04
+# Aprendendo a programar em C# com Orientação a Objetos - Alura Módulo | 01/04
 
 <img src="https://img.shields.io/static/v1?label=Formação CSharp-POO&message=ALURA&color=115EBC&style=for-the-badge"/>
 
@@ -46,4 +46,5 @@ https://github.com/nataliasouza/formacao-csharp-poo-parte2
 ----
 
 ### CERTIFICADO
-![Natalia Souza Oliveira - Curso C# parte 1_ primeiros passos - Alura_page-0001](https://github.com/nataliasouza/formacao-csharp-poo/assets/13735095/d6292b5c-a151-4dcb-9fa6-724976738796)
+
+![certificado-csharp-poo01](https://github.com/nataliasouza/formacao-csharp-poo/assets/13735095/0314390d-b889-4414-baa3-8e7cb1f7a0b1)
