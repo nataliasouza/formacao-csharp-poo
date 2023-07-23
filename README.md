@@ -1,10 +1,12 @@
-# Aprendendo a programar em C# com Orientação a Objetos - Alura Módulo | 01/04
+# Aprendendo a programar em C# com Orientação a Objetos - Alura | Módulo 01/04
 
 <img src="https://img.shields.io/static/v1?label=Formação CSharp-POO&message=ALURA&color=115EBC&style=for-the-badge"/>
 
 :spiral_calendar: Atualizado em 17 de julho de 2023.
 
-:warning: Módulo 1 está concluído:warning: <br>
+⚠️ Módulo 1 e 2 estão concluídos. ⚠️
+
+🚧 O módulo 3 está em desenvolvimento. 🚧 <br>
 
 ##### DESCRIÇÃO:
 > Formação C# - Nesta formação você vai aprender o necessário para iniciar o desenvolvimento de aplicações usando C# e terá acesso a tudo o que precisa para dominar desde os fundamentos da linguagem C# até as melhores práticas de codificação e modelagem, utilizando o poderoso paradigma da programação orientada a objetos.
@@ -33,7 +35,7 @@ https://www.alura.com.br/curso-online-csharp-criando-primeira-aplicacao
 <br>
 
 ## Módulo 2 
-### Aplicando a Orientação a Objetos - 8 Horas [em andamento]
+### Aplicando a Orientação a Objetos - 8 Horas [concluído]
 ```bash
 https://www.alura.com.br/curso-online-csharp-aplicando-orientacao-objetos
 ```
@@ -42,9 +44,22 @@ https://www.alura.com.br/curso-online-csharp-aplicando-orientacao-objetos
 ```bash
 https://github.com/nataliasouza/formacao-csharp-poo-parte2
 ```
+<br>
+
+## Módulo 3 
+### Herança, interface e polimorfismo- 8 Horas [Em andamento]
+```bash
+https://cursos.alura.com.br/course/csharp-dominando-orientacao-objetos
+```
+*Repositório Módulo 3 - Branch master*
+
+```bash
+https://github.com/nataliasouza/formacao-csharp-poo-parte3
+```
+<br>
 
 ----
 
-### CERTIFICADO
+### CERTIFICADO - Módulo 1
 
 ![certificado-csharp-poo01](https://github.com/nataliasouza/formacao-csharp-poo/assets/13735095/0314390d-b889-4414-baa3-8e7cb1f7a0b1)
